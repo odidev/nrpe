@@ -4,6 +4,9 @@ language: c
 sudo: enabled
 dist:
  - trusty
+arch:
+ - amd64
+ - arm64
 compiler:
  - clang
  - gcc
